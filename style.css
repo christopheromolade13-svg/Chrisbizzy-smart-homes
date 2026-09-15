@@ -182,3 +182,34 @@ background-color: white;
         height: 180px;
     }
 }
+footer {
+    background-color: #111;
+    color: white;
+    padding: 30px 20px;
+    margin-top: 0;
+}
+
+footer h3 {
+    color: #c9a227;
+    margin-top: 0;
+}
+
+footer p {
+    font-size: 15px;
+    margin: 8px 0;
+} footer {
+    background-color: #111;
+    color: white;
+    padding: 30px 20px;
+    margin-top: 0;
+}
+
+footer h3 {
+    color: #c9a227;
+    margin-top: 0;
+}
+
+footer p {
+    font-size: 15px;
+    margin: 8px 0;
+}
