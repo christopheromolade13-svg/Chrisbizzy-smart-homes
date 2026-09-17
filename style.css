@@ -196,3 +196,42 @@ background-color: white;
 #contact button:hover {
     background-color: #128C7E;
 }
+footer {
+    background-color: #111;
+    color: white;
+    padding: 30px 20px;
+    margin-top: 0;
+}
+
+footer h3 {
+    color: #c9a227;
+    margin-top: 0;
+}
+
+footer p {
+    font-size: 15px;
+    margin: 8px 0;
+}
+footer {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    background: #111 !important;
+    color: white !important;
+    padding: 50px 20px !important;
+    width: 100% !important;
+    min-height: 180px !important;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+footer h3 {
+    color: #c9a227 !important;
+    margin: 0 0 15px 0;
+}
+
+footer p {
+    color: white !important;
+    font-size: 16px;
+    margin: 8px 0;
+}
