@@ -323,3 +323,36 @@ footer p {
 .why-us-item p {
     font-size: 16px;
 }
+/* Extra mobile improvements */
+@media (max-width: 600px) {
+    nav {
+        padding: 10px 5px;
+    }
+
+    nav a {
+        margin: 5px 6px;
+        font-size: 13px;
+    }
+
+    .product {
+        width: 90%;
+        max-width: 320px;
+        padding: 20px;
+    }
+
+    .product img {
+        height: 180px;
+    }
+
+    .why-us-item {
+        width: 90%;
+        max-width: 320px;
+    }
+
+    .whatsapp-float {
+        bottom: 15px;
+        right: 15px;
+        padding: 12px 16px;
+        font-size: 14px;
+    }
+}
