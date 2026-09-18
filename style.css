@@ -289,3 +289,37 @@ footer p {
 .whatsapp-float:hover {
     background-color: #128C7E;
 }
+#why-us {
+    background-color: white;
+    padding: 50px 20px;
+}
+
+#why-us h2 {
+    margin-top: 0;
+}
+
+.why-us-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    max-width: 1000px;
+    margin: 30px auto 0;
+}
+
+.why-us-item {
+    background-color: #f5f5f5;
+    width: 260px;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.12);
+}
+
+.why-us-item h3 {
+    color: #c9a227;
+    margin-top: 0;
+}
+
+.why-us-item p {
+    font-size: 16px;
+}
