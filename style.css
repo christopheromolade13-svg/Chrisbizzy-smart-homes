@@ -387,10 +387,15 @@ footer p {
 }
 
 .products {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     gap: 25px;
     padding: 10px;
+}
+.product {
+    width: 90%;
+    max-width: 500px;
 }
 
 .product {
@@ -450,4 +455,43 @@ footer p {
 .product a button:hover {
     background-color: #128C7E !important;
     color: white !important;
+}
+/* Product layout - 3 cards per row */
+.products {
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr) !important;
+    gap: 25px !important;
+    padding: 10px !important;
+}
+
+.product {
+    width: auto !important;
+    max-width: none !important;
+    box-sizing: border-box !important;
+}
+/* Desktop: exactly 3 products per row */
+@media (min-width: 601px) {
+    .products {
+        display: grid !important;
+        grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+        gap: 25px !important;
+    }
+
+    .product {
+        width: auto !important;
+        max-width: none !important;
+    }
+}
+@media (min-width: 601px) {
+    #products .products {
+        display: grid !important;
+        grid-template-columns: repeat(3, 1fr) !important;
+        gap: 25px !important;
+    }
+
+    #products .product {
+        width: auto !important;
+        max-width: none !important;
+        margin: 0 !important;
+    }
 }
