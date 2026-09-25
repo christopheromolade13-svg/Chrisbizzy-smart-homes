@@ -73,7 +73,7 @@ nav a:hover {
 }
 
 .product button:hover {
-    background-color: #c9a227;
+    background-color: #128C7E;
 }
 
 section {
@@ -376,4 +376,78 @@ footer p {
     color: white;
     font-size: 16px;
     margin: 8px 0 0;
+}
+/* Products section improvements */
+
+.products-intro {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto 30px;
+    line-height: 1.6;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+    padding: 10px;
+}
+
+.product {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.18);
+}
+
+.product img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.product h3 {
+    margin: 15px 0 10px;
+}
+
+.product p {
+    line-height: 1.5;
+}
+
+.product button {
+    background: #25D366;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.product button:hover {
+    opacity: 0.85;
+}
+.product button {
+    background-color: #25D366 !important;
+    color: white !important;
+    border: none;
+}
+.product a button {
+    background-color: #25D366 !important;
+    color: white !important;
+    border: none !important;
+}
+
+.product a button:hover {
+    background-color: #128C7E !important;
+    color: white !important;
 }
