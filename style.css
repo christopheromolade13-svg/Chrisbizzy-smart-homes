@@ -793,3 +793,83 @@ nav a:hover {
     background-color: #128C7E !important;
     transform: translateY(-2px);
 }
+/* Improved Why Choose Us Section */
+
+#why-us {
+    background-color: #f8f8f8;
+    text-align: center;
+}
+
+#why-us h2 {
+    color: #111;
+    margin-bottom: 10px;
+}
+
+.why-us-intro {
+    max-width: 700px;
+    margin: 0 auto 30px;
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+.why-us-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.why-us-item {
+    background: linear-gradient(145deg, #ffffff, #fffaf0);
+    width: 260px;
+    padding: 30px 25px;
+    border: 1px solid #e5d3a1;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.10);
+    transition: all 0.35s ease;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+}
+
+.why-us-item:hover {
+    transform: translateY(-10px) scale(1.03);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.18);
+    border-color: #c9a227;
+    background: #ffffff;
+}
+
+.why-us-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2);
+    background-color: #fffdf5;
+}
+
+.why-us-item h3 {
+    color: #c9a227;
+    margin-top: 0;
+    font-size: 20px;
+}
+
+.why-us-item p {
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 0;
+}
+/* Visible hover lift for Why Choose Us cards */
+
+#why-us .why-us-item {
+    transition: transform 0.25s ease, box-shadow 0.25s ease !important;
+}
+
+#why-us .why-us-item:hover {
+    transform: translateY(-15px) !important;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25) !important;
+}
+#why-us .why-us-container .why-us-item:hover {
+    background-color: yellow !important;
+    transform: translateY(-20px) !important;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.30) !important;
+}
