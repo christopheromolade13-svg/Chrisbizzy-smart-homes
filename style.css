@@ -872,3 +872,61 @@ nav a:hover {
     transform: translateY(-20px) !important;
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.30) !important;
 }
+/* FIX: Chrisbizzy Smart Homes Mobile Product Layout */
+
+@media (max-width: 600px) {
+
+    #products .products {
+        display: grid !important;
+        grid-template-columns: minmax(0, 1fr) !important;
+        gap: 25px !important;
+        padding: 15px !important;
+        width: 100% !important;
+        box-sizing: border-box !important;
+    }
+
+    #products .product {
+        width: 100% !important;
+        max-width: 400px !important;
+        min-width: 0 !important;
+        min-height: auto !important;
+        margin: 0 auto !important;
+        padding: 20px !important;
+        box-sizing: border-box !important;
+        overflow-wrap: anywhere;
+    }
+
+    #products .product img {
+        width: 100% !important;
+        height: 200px !important;
+        object-fit: contain !important;
+        border-radius: 10px;
+    }
+
+    #products .product h3 {
+        font-size: 22px !important;
+        line-height: 1.4 !important;
+        overflow-wrap: anywhere;
+    }
+
+    #products .product p {
+        font-size: 16px !important;
+        line-height: 1.6 !important;
+        overflow-wrap: anywhere;
+    }
+
+    #products .product button {
+        max-width: 100% !important;
+        box-sizing: border-box !important;
+        padding: 12px 20px !important;
+        white-space: normal !important;
+    }
+
+    .whatsapp-float {
+        bottom: 15px !important;
+        right: 12px !important;
+        padding: 10px 14px !important;
+        font-size: 13px !important;
+        z-index: 9999;
+    }
+}
