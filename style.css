@@ -662,8 +662,8 @@ nav a:hover {
 @media (max-width: 800px) {
     .main-header {
         flex-direction: column;
-        padding: 15px 10px;
-        gap: 10px;
+        padding: 10px 10px;
+        gap: 6px;
     }
 
     .brand {
