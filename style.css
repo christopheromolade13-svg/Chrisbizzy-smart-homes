@@ -979,3 +979,29 @@ box-sizing: border-box !important;
     font-size: 14px;
     margin-top: 18px;
 }
+/* WhatsApp button below customer reviews */
+.reviews-cta {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.reviews-cta p {
+    color: #333;
+    font-size: 16px;
+    margin-bottom: 18px;
+}
+
+.shop-whatsapp-btn {
+    display: inline-block;
+    background-color: #128C7E;
+    color: #fff;
+    padding: 13px 28px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.shop-whatsapp-btn:hover {
+    background-color: #075E54;
+}
