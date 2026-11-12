@@ -958,19 +958,28 @@ box-sizing: border-box !important;
     margin: 0 auto;
 }
 
+/* Customer Review Cards */
+
 .review-card {
     background-color: #fff;
     padding: 25px;
-    border-radius: 10px;
-    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    border: 1px solid #eeeeee;
     flex: 1 1 280px;
     max-width: 330px;
     text-align: left;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.review-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
 }
 
 .review-card p {
     color: #333;
-    line-height: 1.7;
+    line-height: 1.8;
     font-size: 15px;
 }
 
@@ -1081,4 +1090,12 @@ box-sizing: border-box !important;
 .faq-item[open] {
     border-color: #128C7E;
     background-color: #f9fffd;
+}
+/* Customer Review Stars */
+
+.review-stars {
+    color: #D4AF37;
+    font-size: 24px;
+    letter-spacing: 3px;
+    margin-bottom: 12px;
 }
