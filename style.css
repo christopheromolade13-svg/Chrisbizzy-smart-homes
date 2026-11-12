@@ -289,13 +289,26 @@ footer p {
 .whatsapp-float:hover {
     background-color: #128C7E;
 }
+/* Why Choose Chrisbizzy Smart Homes */
 #why-us {
-    background-color: white;
-    padding: 50px 20px;
+    background-color: #f8fffc;
+    padding: 55px 20px;
+    text-align: center;
 }
 
 #why-us h2 {
+    color: #128C7E;
+    font-size: 28px;
     margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.why-us-intro {
+    max-width: 750px;
+    margin: 0 auto 30px;
+    color: #444;
+    font-size: 16px;
+    line-height: 1.8;
 }
 
 .why-us-container {
@@ -308,20 +321,31 @@ footer p {
 }
 
 .why-us-item {
-    background-color: #f5f5f5;
+    background-color: #ffffff;
     width: 260px;
     padding: 25px;
-    border-radius: 10px;
-    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.12);
+    border-radius: 12px;
+    border: 1px solid #e0eee9;
+    border-top: 4px solid #128C7E;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.why-us-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 7px 18px rgba(0, 0, 0, 0.12);
 }
 
 .why-us-item h3 {
-    color: #c9a227;
+    color: #128C7E;
     margin-top: 0;
+    font-size: 19px;
 }
 
 .why-us-item p {
-    font-size: 16px;
+    color: #444;
+    font-size: 15px;
+    line-height: 1.7;
 }
 /* Extra mobile improvements */
 @media (max-width: 600px) {
