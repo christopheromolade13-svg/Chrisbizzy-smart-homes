@@ -1099,3 +1099,43 @@ box-sizing: border-box !important;
     letter-spacing: 3px;
     margin-bottom: 12px;
 }
+/* About Us Section */
+
+#about {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 35px 25px;
+    background-color: #f8fffc;
+    border-radius: 12px;
+    border-left: 5px solid #128C7E;
+    text-align: center;
+}
+
+#about h2 {
+    color: #128C7E;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+#about p {
+    color: #444;
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+/* About Section - Mobile Improvements */
+@media (max-width: 600px) {
+    #about {
+        margin: 25px 12px;
+        padding: 25px 18px;
+    }
+
+    #about h2 {
+        font-size: 23px;
+    }
+
+    #about p {
+        font-size: 15px;
+        line-height: 1.7;
+    }
+}
